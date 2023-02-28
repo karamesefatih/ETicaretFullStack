@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Entities.Ortak;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -15,6 +16,24 @@ namespace Persistence.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Customer> Customers { get; set; }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            //Change Tracker => Entityler üzerinden yapılan değişikliklerin yakalanmasını sağlar
+            //Base entityde manipülasyon yapıyoruz
+            var datas = ChangeTracker.Entries<BaseEntity>();
+            //ne kadar data geldiğini bilemeyeceğimiz için dögüye soktuk
+            foreach(var data in datas)
+            {
+                //datayı boşyere tutmamak için discard ettik
+                _ = data.State switch
+                {
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.LastUpdateDate = DateTime.UtcNow,
+                };
+            }
+            return await base.SaveChangesAsync(cancellationToken);
+         }
 
     }
 }

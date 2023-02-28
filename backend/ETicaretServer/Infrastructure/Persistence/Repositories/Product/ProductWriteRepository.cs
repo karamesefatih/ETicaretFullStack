@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Application.Repositories;
+using Domain.Entities;
+using Persistence.Contexts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Persistence.Repositories.Product
+namespace Persistence.Repositories
 {
-    internal class ProductWriteRepository
+    public class ProductWriteRepository : WriteRepository<Product>,IProductWriteRepository
     {
+        public ProductWriteRepository(ETicaretDbContext context) : base(context)
+        {
+        }
     }
 }
