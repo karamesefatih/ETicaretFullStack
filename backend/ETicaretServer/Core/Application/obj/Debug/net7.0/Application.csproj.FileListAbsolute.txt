@@ -1,0 +1,15 @@
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\bin\Debug\net7.0\Application.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\bin\Debug\net7.0\Domain.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\bin\Debug\net7.0\Domain.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Core\Application\obj\Debug\net7.0\ref\Application.dll
