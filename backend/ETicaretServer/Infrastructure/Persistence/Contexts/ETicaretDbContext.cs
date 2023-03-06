@@ -28,7 +28,9 @@ namespace Persistence.Contexts
                 //datayı boşyere tutmamak için discard ettik
                 _ = data.State switch
                 {
+                    //ekleme yapıldığında createdtime yenilenecek
                     EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    //güncelleme yapıldığında güncelleme zamanı yenilecenecek
                     EntityState.Modified => data.Entity.LastUpdateDate = DateTime.UtcNow,
                 };
             }

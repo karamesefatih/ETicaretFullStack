@@ -1,0 +1,15 @@
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\bin\Debug\net7.0\jsonParse.exe
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\bin\Debug\net7.0\jsonParse.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\bin\Debug\net7.0\jsonParse.runtimeconfig.json
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\bin\Debug\net7.0\jsonParse.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\bin\Debug\net7.0\jsonParse.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\refint\jsonParse.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\jsonParse.genruntimeconfig.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\jsonParse\jsonParse\obj\Debug\net7.0\ref\jsonParse.dll
