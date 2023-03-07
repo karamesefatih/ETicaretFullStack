@@ -29,9 +29,10 @@ namespace Persistence.Contexts
                 _ = data.State switch
                 {
                     //ekleme yapıldığında createdtime yenilenecek
-                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow.AddHours(3),
                     //güncelleme yapıldığında güncelleme zamanı yenilecenecek
-                    EntityState.Modified => data.Entity.LastUpdateDate = DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.LastUpdateDate = DateTime.UtcNow.AddHours(3),
+                    _ => DateTime.UtcNow,
                 };
             }
             return await base.SaveChangesAsync(cancellationToken);

@@ -59,3 +59,7 @@ C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Pre
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
