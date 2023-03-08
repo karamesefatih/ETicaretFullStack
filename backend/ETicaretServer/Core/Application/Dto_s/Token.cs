@@ -8,7 +8,8 @@ namespace Application.Dto_s
 {
     public class Token
     {
-        public string AccessToken { get; set; }
+        public string AccesToken { get; set; }
         public DateTime Expiration { get; set; }
+        public string refreshToken { get; set; }
     }
 }

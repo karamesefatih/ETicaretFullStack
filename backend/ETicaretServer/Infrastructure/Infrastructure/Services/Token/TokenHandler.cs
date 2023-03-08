@@ -1,7 +1,10 @@
 ﻿using Application.Abstractions.Token;
+using Domain.Entities.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace Infrastructure.Services.Token
@@ -15,7 +18,7 @@ namespace Infrastructure.Services.Token
             _configuration = configuration;
         }
         //Burada o büyük kocaman tokeni oluşturduk
-        public Application.Dto_s.Token CreateAccessToken(int minute)
+        public Application.Dto_s.Token CreateAccessToken(int minute,User user)
         {
             Application.Dto_s.Token token = new();
             //Security Key simetriğini aldık
@@ -27,15 +30,26 @@ namespace Infrastructure.Services.Token
                 audience: _configuration["Token:Audience"],
                 issuer: _configuration["Token:Issuer"],
                 expires: token.Expiration,
-                signingCredentials:signingCredentials
+                signingCredentials:signingCredentials,
+                claims: new List<Claim> { new(ClaimTypes.Name,user.UserName)}
                 ) ;
             //Token oluşturucu sınıfından bir örnek alalım
             JwtSecurityTokenHandler tokenHandler = new();
-            token.AccessToken = tokenHandler.WriteToken(securityToken);
-            return token;
+            token.AccesToken = tokenHandler.WriteToken(securityToken);
 
-               
-            
+            // string refreshToken = CreateRefreshToken();
+            token.refreshToken = CreateRefreshToken();
+            return token;
+        }
+
+        public string CreateRefreshToken()
+        {
+            byte[] number = new byte[32];
+            using RandomNumberGenerator random = RandomNumberGenerator.Create();
+            {
+                random.GetBytes(number);
+                return Convert.ToBase64String(number);
+            }
         }
     }
 }

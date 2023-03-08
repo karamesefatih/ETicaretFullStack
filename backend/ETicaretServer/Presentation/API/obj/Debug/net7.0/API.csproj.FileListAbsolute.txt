@@ -83,3 +83,14 @@ C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Pre
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.PostgreSQL.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.File.dll

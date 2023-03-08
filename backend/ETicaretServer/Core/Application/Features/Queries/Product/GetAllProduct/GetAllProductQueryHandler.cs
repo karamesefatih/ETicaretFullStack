@@ -14,6 +14,7 @@ namespace Application.Features.Queries.Product.GetAllProduct
 
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
+            throw new Exception();
             var totalCount = _productReadRespository.GetAll(false).Count();
             var products = _productReadRespository.GetAll(false).Skip(request.Page * request.size).Take(request.size).ToList();
 

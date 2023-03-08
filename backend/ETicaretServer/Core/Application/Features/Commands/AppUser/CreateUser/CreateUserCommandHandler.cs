@@ -1,37 +1,34 @@
-﻿using Application.Exceptions;
-using Domain.Entities.Identity;
+﻿using Application.Abstractions.Services;
+using Application.Dto_s.User;
 using MediatR;
-using Microsoft.AspNetCore.Identity;
 
 namespace Application.Features.Commands.AppUser.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {
-        private readonly UserManager<User> _userManager;
+        private readonly IUserService _userService;
 
-        public CreateUserCommandHandler(UserManager<User> userManager)
+        public CreateUserCommandHandler(IUserService userService)
         {
-            _userManager = userManager;
+            _userService = userService;
         }
 
         public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
-            IdentityResult result = await _userManager.CreateAsync(new()
+            CreateUserResponse response = await _userService.CreateAsync(new()
             {
-                Id = Guid.NewGuid().ToString(),
-                UserName = request.Username,
                 Email = request.Email,
-                nameSurname = request.NameSurname,
-            }, request.Password);
+                NameSurname = request.NameSurname,
+                Password = request.Password,
+                PasswordConfirm = request.PasswordConfirm,
+                Username = request.Username,
+            });
+            return new()
+            {
+                Message = response.Message,
+                Succeeded = response.Succeeded,
+            };
 
-            CreateUserCommandResponse response = new() { Succeeded = result.Succeeded };
-            if (result.Succeeded)
-                response.Message = "User Has Been Created";
-            else
-                foreach (var error in result.Errors)
-                    response.Message += $"{error.Code} - {error.Description}\n";   
-            return response;
-            
         }
     }
 }
