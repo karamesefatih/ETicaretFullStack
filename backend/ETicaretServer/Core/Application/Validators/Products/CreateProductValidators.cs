@@ -1,9 +1,9 @@
-﻿using Application.ViewModels.Products;
+﻿using Application.Features.Commands.Product.CreateProduct;
 using FluentValidation;
 
 namespace Application.Validators.Products
 {
-    public class CreateProductValidators : AbstractValidator<VM_Create_Product>
+    public class CreateProductValidators : AbstractValidator<CreateProductCommandRequest>
     {
         public CreateProductValidators()
         {

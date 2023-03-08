@@ -15,3 +15,5 @@ C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Inf
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache

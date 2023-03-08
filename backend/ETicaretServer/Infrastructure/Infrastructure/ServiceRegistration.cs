@@ -1,4 +1,7 @@
-﻿using Application.Services;
+﻿using Application.Abstractions.Token;
+using Application.Services;
+using Infrastructure.Services;
+using Infrastructure.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -12,7 +15,8 @@ namespace Infrastructure
     {
         public static void AddInfrastructureService(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddScoped<IFileService,IFileService>();
+            serviceCollection.AddScoped<IFileService, FileService>();
+            serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
         }
     }
 }

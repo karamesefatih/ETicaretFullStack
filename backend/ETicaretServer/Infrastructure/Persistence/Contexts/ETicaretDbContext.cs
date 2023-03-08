@@ -1,12 +1,14 @@
 ﻿using Domain.Entities;
+using Domain.Entities.Identity;
 using Domain.Entities.Ortak;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace Persistence.Contexts
 {
     //DbContext Veritabanına karşılık gelen sınıftır
-    public class ETicaretDbContext : DbContext
+    public class ETicaretDbContext : IdentityDbContext<User,Role,string>
     {
         //Bu constructer IOC de doldurulacaktır
         public ETicaretDbContext(DbContextOptions options) : base(options)
