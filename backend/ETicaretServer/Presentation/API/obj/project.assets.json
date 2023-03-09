@@ -2317,6 +2317,22 @@
         "runtime": {
           "bin/placeholder/Persistence.dll": {}
         }
+      },
+      "SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6159,6 +6175,11 @@
       "type": "project",
       "path": "../../Infrastructure/Persistence/Persistence.csproj",
       "msbuildProject": "../../Infrastructure/Persistence/Persistence.csproj"
+    },
+    "SignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/SignalR/SignalR.csproj",
+      "msbuildProject": "../../Infrastructure/SignalR/SignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6172,6 +6193,7 @@
       "Serilog >= 2.12.0",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Sinks.PostgreSQL >= 2.3.0",
+      "SignalR >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.Configuration.ConfigurationManager >= 7.0.0"
     ]
@@ -6213,6 +6235,9 @@
             },
             "C:\\Users\\fatih\\OneDrive\\Masaüstü\\Projeler\\OnianArch\\backend\\ETicaretServer\\Infrastructure\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\fatih\\OneDrive\\Masaüstü\\Projeler\\OnianArch\\backend\\ETicaretServer\\Infrastructure\\Persistence\\Persistence.csproj"
+            },
+            "C:\\Users\\fatih\\OneDrive\\Masaüstü\\Projeler\\OnianArch\\backend\\ETicaretServer\\Infrastructure\\SignalR\\SignalR.csproj": {
+              "projectPath": "C:\\Users\\fatih\\OneDrive\\Masaüstü\\Projeler\\OnianArch\\backend\\ETicaretServer\\Infrastructure\\SignalR\\SignalR.csproj"
             }
           }
         }

@@ -14,6 +14,8 @@ using Serilog.Context;
 using Serilog.Core;
 using Serilog.Events;
 using Serilog.Sinks.PostgreSQL;
+using SignalR;
+using SignalR.Hubs;
 using System.Security.Claims;
 using System.Text;
 
@@ -22,9 +24,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureService();
 builder.Services.AddApplicationServices();
+builder.Services.AddSignalRServices();
 
 //Cors Policy eklendi
-builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.WithOrigins("http://localhost:5173", "http://zenostreet.com").AllowAnyHeader().AllowAnyMethod()));
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.WithOrigins("http://localhost:5173", "http://zenostreet.com").AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
 
 Logger log = new LoggerConfiguration()
     .WriteTo.Console()
@@ -111,5 +114,5 @@ app.Use(async(context, next) =>
     await next();
 });
 app.MapControllers();
-
+app.MapHubs();
 app.Run();

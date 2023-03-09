@@ -1,0 +1,17 @@
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\SignalR.deps.json
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\SignalR.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\SignalR.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\Application.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\Domain.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\Application.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\bin\Debug\net7.0\Domain.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.csproj.AssemblyReference.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.AssemblyInfoInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.AssemblyInfo.cs
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.csproj.CoreCompileInputs.cache
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.csproj.CopyComplete
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\refint\SignalR.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\SignalR.pdb
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Infrastructure\SignalR\obj\Debug\net7.0\ref\SignalR.dll

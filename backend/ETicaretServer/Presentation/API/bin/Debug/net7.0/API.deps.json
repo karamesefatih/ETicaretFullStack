@@ -17,6 +17,7 @@
           "Serilog": "2.12.0",
           "Serilog.AspNetCore": "6.1.0",
           "Serilog.Sinks.PostgreSQL": "2.3.0",
+          "SignalR": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Configuration.ConfigurationManager": "7.0.0"
         },
@@ -1164,6 +1165,14 @@
         "runtime": {
           "Persistence.dll": {}
         }
+      },
+      "SignalR/1.0.0": {
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "runtime": {
+          "SignalR.dll": {}
+        }
       }
     }
   },
@@ -2106,6 +2115,11 @@
       "sha512": ""
     },
     "Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SignalR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

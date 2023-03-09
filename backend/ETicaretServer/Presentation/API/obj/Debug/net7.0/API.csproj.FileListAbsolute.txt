@@ -94,3 +94,5 @@ C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Pre
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\SignalR.dll
+C:\Users\fatih\OneDrive\Masaüstü\Projeler\OnianArch\backend\ETicaretServer\Presentation\API\bin\Debug\net7.0\SignalR.pdb

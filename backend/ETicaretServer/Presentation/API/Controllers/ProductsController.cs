@@ -17,7 +17,6 @@ namespace API.Controllers
     //Controllerlar entity ile karşılanmamalıdır View Modellar ile yapılır yada CQRS pattern ile
     [Route("api/[controller]")]
     [ApiController] 
-    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductWriteRepository _productWriteRepository;
@@ -53,12 +52,14 @@ namespace API.Controllers
 
         }
         [HttpPost]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> post(CreateProductCommandRequest request)
         {
             CreateProductCommandResponse response =  await _mediator.Send(request);
             return Ok(response);
         }
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> put(UpdateProductCommandRequest request)
         {
             UpdateProductCommandResponse response = await _mediator.Send(request);
@@ -66,6 +67,7 @@ namespace API.Controllers
 
         }
         [HttpDelete("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Delete([FromRoute] RemoveProductCommandRequest request)
         {
             RemoveProductCommandResponse response = await _mediator.Send(request);
@@ -73,6 +75,7 @@ namespace API.Controllers
         }
         //Dosya ekleme metodu
         [HttpPost("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Upload()
         {
             await _fileService.UploadAsync("resource/product-images",Request.Form.Files);

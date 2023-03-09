@@ -28,14 +28,16 @@ namespace Persistence.Contexts
             foreach(var data in datas)
             {
                 //datayı boşyere tutmamak için discard ettik
-                _ = data.State switch
+                switch ( data.State) 
                 {
-                    //ekleme yapıldığında createdtime yenilenecek
-                    EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow.AddHours(3),
-                    //güncelleme yapıldığında güncelleme zamanı yenilecenecek
-                    EntityState.Modified => data.Entity.LastUpdateDate = DateTime.UtcNow.AddHours(3),
-                    _ => DateTime.UtcNow,
-                };
+                    case EntityState.Added:
+                        data.Entity.CreatedDate= DateTime.UtcNow.AddHours(3);
+                        data.Entity.LastUpdateDate = DateTime.UtcNow.AddHours(3);
+                        break;
+                    case EntityState.Modified:
+                        data.Entity.LastUpdateDate = DateTime.UtcNow.AddHours(3);
+                        break;
+                }
             }
             return await base.SaveChangesAsync(cancellationToken);
          }

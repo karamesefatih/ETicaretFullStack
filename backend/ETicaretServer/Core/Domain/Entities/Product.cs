@@ -9,5 +9,7 @@ namespace Domain.Entities
         public float Price { get; set; }
         //ürün ve sipariş arasında ki çoka çok ilişki olduğu için hem ürün hem de siparişte ICollection tanımlanmıştır
         public ICollection<Order> Orders { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
+
     }
 }
